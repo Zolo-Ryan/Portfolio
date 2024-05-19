@@ -1,0 +1,20 @@
+.intro {
+  border-radius: 20px;
+  color: white;
+  position: relative;
+  backdrop-filter: blur(6px);
+}
+.intro h2 {
+  text-align: center;
+  font-size: 2rem;
+}
+.intro-text {
+  position: relative;
+  left: 10vw;
+  color: white;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  font-size: 1.2rem;
+}

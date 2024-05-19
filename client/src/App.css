@@ -1,14 +1,13 @@
 .parent-root{
   background-color: black;
-  height: 100vh;
-  width: 100vw;
-  position: fixed;
+  padding: 20px;
 }
+
 .parent{
   position: fixed;
   width: 100vw;
   height: 100vh;
-  background: url("./assets/Starlight3.jpg") black;
+  background: url("./assets/Starlight3.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   opacity: 0.7;
