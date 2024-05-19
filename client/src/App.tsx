@@ -1,10 +1,13 @@
 import './App.css';
+import Navbar from './components/Navbar/Navbar';
 import ImageGallery from './components/ImageGallery/RevolvingImageGallery';
 
 function App() {
   return (
-    <div>
-      <ImageGallery />
+    <div className='parent-root'>
+      <div className='parent'>
+        <Navbar />
+      </div>
     </div>
   );
 }
