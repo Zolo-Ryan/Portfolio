@@ -3,7 +3,7 @@ import "./Introduction.css";
 const Introduction = () => {
   return (
     <div className="intro" id="about">
-      <h2>LET ME INTRODUCE MYSELF</h2>
+      <h2>LET ME <span className="special">INTRODUCE</span> MYSELF</h2>
       <div className="intro-text">
         <p>
           I am a Pre-final year at NIT Kurukshetra, pursuing B.Tech in Computer

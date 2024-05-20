@@ -2,13 +2,15 @@ import "./Projects.css";
 import img1 from "../../assets/zilo_text_editor_1.png";
 import img2 from "../../assets/blog.png";
 import img3 from "../../assets/weather.png";
+import img4 from "../../assets/digitomize_svg.png";
 
 const Projects = () => {
   return (
-    <div className="projects">
-      <div className="grid">
+    <div className="projects" id="projects">
+        <h1>Projects</h1>
+      <div className="flexy">
         <div className="item">
-          <a href="https://github.com/Zolo-Ryan/Zilo" aria-labelledby="person1" target="_blank" rel="noreferrer"></a>
+          <a href="https://github.com/Zolo-Ryan/Zilo" aria-labelledby="project1" target="_blank" rel="noreferrer"></a>
           <img src={img1} alt="Loading..." />
           <div className="item__overlay">
             <h3 aria-hidden="true">
@@ -23,7 +25,7 @@ const Projects = () => {
           </div>
         </div>
         <div className="item">
-          <a href="https://blogify-88v0.onrender.com/" aria-labelledby="person2" target="_blank" rel="noreferrer"></a>
+          <a href="https://blogify-88v0.onrender.com/" aria-labelledby="project2" target="_blank" rel="noreferrer"></a>
           <img
             src={img2}
             alt="Loading...."
@@ -41,7 +43,7 @@ const Projects = () => {
           </div>
         </div>
         <div className="item">
-          <a href="https://github.com/Zolo-Ryan/Weather" aria-labelledby="person3"></a>
+          <a href="https://github.com/Zolo-Ryan/Weather" aria-labelledby="project3"></a>
           <img
             src={img3}
             alt="Loading..."
@@ -60,10 +62,11 @@ const Projects = () => {
           </div>
         </div>
         <div className="item">
-          <a href="#0" aria-labelledby="person4"></a>
+          <a href="https://github.com/digitomize/digitomize/pull/559" aria-labelledby="project4" target="_blank" rel="noreferrer"></a>
           <img
-            src="https://images.unsplash.com/photo-1590424744257-fdb03ed78ae0?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ"
-            alt=""
+            src={img4}
+            alt="Loading..."
+            style={{objectPosition: "center"}}
           />
           <div className="item__overlay">
             <h3 aria-hidden="true">

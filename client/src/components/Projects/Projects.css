@@ -3,7 +3,13 @@
   color: white;
 }
 
-.grid {
+.projects h1{
+    padding: 10px;
+    font-size: 3rem;
+    font-weight: 400;
+}
+
+.flexy {
   display: flex;
   justify-content: space-evenly;
   row-gap: 1.2rem;
@@ -22,7 +28,7 @@
 .item h3 {
   margin: 0;
   display: block;
-  background-color: rgba(55, 58, 219,0.9);
+  background-color: rgba(25, 37, 119, 0.9);
   padding: 1rem;
   transform: translate3d(0, -100%, 0);
   transition: transform 300ms;
@@ -63,7 +69,7 @@
   width: 100%;
   top: 0;
   transition: transform 300ms;
-  background-color: rgba(55, 58, 219,0.7);
+  background-color: rgba(25, 37, 119,0.7);
   transform: translate3d(0, 100%, 0);
 }
 .item__body {
