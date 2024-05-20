@@ -4,6 +4,7 @@ import ImageGallery from "./components/ImageGallery/RevolvingImageGallery";
 import Main from "./components/Main/Main";
 import Introduction from "./components/Introduction/Introduction";
 import Footer from "./components/Footer/Footer";
+import Projects from "./components/Projects/Projects";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Navbar />
         <Main />
         <Introduction />
+        <Projects />
       </div>
       <Footer />
     </div>
