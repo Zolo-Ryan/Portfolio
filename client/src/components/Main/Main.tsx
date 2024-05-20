@@ -12,8 +12,12 @@ const Main = () => {
       <div className="main-child">
         <div className="typewriter">
           <p>Hi There!</p>
-          <p>I am <span className="special">UTKARSH SWAROOP SHRIVASTAVA</span></p>
-          <br /><br /><br />
+          <p>
+            I am <span className="special">UTKARSH SWAROOP SHRIVASTAVA</span>
+          </p>
+          <br />
+          <br />
+          <br />
           <p className="type special">
             <TypeAnimation
               sequence={[
@@ -52,6 +56,11 @@ const Main = () => {
             </div>
           </div>
         </div>
+        <svg className="arrows">
+          <path className="a1" d="M0 0 L30 32 L60 0"></path>
+          <path className="a2" d="M0 20 L30 52 L60 20"></path>
+          <path className="a3" d="M0 40 L30 72 L60 40"></path>
+        </svg>
       </div>
     </main>
   );

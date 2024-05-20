@@ -1,65 +1,131 @@
-.main{
-    margin: 20px;
-    height: 100vh;
+.main {
+  margin: 20px;
+  height: 100vh;
 }
-.main-child{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-.typewriter{
-    position: relative;
-    top: 13vh;
-    left: 10vw;
-    width: 900px;
-}
-.typewriter p{
-    font-size: 2rem;
-    color: white;
-}
-.special, .typewriter p.special{
-    color: rgb(55, 55, 214);
-    text-shadow: 1px -1px 1px white;
-
+.main-child {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
-.card-content{
-    margin-top: 100px;
-    width: 400px;
-    border: 1px solid white;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    backdrop-filter: blur( 4px );
-    -webkit-backdrop-filter: blur( 4px );
-    border: 1px solid rgb(55, 58, 219);
-    border-radius: 20px;
-    padding: 20px;
+.typewriter {
+  position: relative;
+  top: 13vh;
+  left: 10vw;
+  width: 900px;
 }
-.profile-image{
-    position: relative;
-    top: -80px;
-    border-radius: 50%;
-    height: 25vh;
-    width: 25vh;
+.typewriter p {
+  font-size: 2rem;
+  color: white;
 }
-.profile-image img{
-    border-radius: 50%;
+.special,
+.typewriter p.special {
+  color: rgb(55, 55, 214);
+  text-shadow: 1px -1px 1px white;
 }
-.content{
-    margin-top: -55px;
-    font-size: 2rem;
-    text-align: center;
+
+.card-content {
+  position: relative;
+  color: white;
+  margin-top: 100px;
+  width: 400px;
+  border: 1px solid white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border: 1px solid rgb(55, 58, 219);
+  border-radius: 20px;
+  padding: 20px;
 }
-.socials{
-    display: flex;
-    justify-content: space-between;
+.profile-image {
+  position: relative;
+  top: -80px;
+  border-radius: 50%;
+  height: 25vh;
+  width: 25vh;
 }
-.socials a img{
-    width: 50px;
-    transition: ease-out 0.1s;
+.profile-image img {
+  border-radius: 50%;
 }
-.socials a img:hover{
-    scale: 1.2;
+.content {
+  margin-top: -55px;
+  font-size: 2rem;
+  text-align: center;
+}
+.socials {
+  display: flex;
+  justify-content: space-between;
+}
+.socials a img {
+  width: 50px;
+  transition: ease-out 0.1s;
+}
+.socials a img:hover {
+  scale: 1.2;
+}
+
+.arrows {
+  width: 60px;
+  height: 72px;
+  position: absolute;
+  left: 50%;
+  margin-left: -30px;
+  bottom: 20px;
+}
+.arrows path{
+  fill: transparent;
+  stroke-width: 7px;
+  animation: arrow 2s infinite;
+  -webkit-animation: arrow 2s infinite;
+}
+.arrows path.a1{
+    stroke: #e4e9ec;
+}
+.arrows path.a2{
+    stroke: #176392;
+}
+.arrows path.a3{
+    stroke: #0f0320;
+}
+@keyframes arrow {
+  0% {
+    opacity: 0;
+  }
+  40% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@-webkit-keyframes arrow /*Safari and Chrome*/ {
+  0% {
+    opacity: 0;
+  }
+  40% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+.arrows path.a1 {
+  animation-delay: -1s;
+  -webkit-animation-delay: -1s; /* Safari 和 Chrome */
+}
+.arrows path.a2 {
+  animation-delay: -0.5s;
+  -webkit-animation-delay: -0.5s; /* Safari 和 Chrome */
+}
+.arrows path.a3 {
+  animation-delay: 0s;
+  -webkit-animation-delay: 0s; /* Safari 和 Chrome */
 }
