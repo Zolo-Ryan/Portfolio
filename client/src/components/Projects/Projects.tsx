@@ -7,7 +7,7 @@ import img4 from "../../assets/digitomize_svg.png";
 const Projects = () => {
   return (
     <div className="projects" id="projects">
-        <h1>Projects</h1>
+        <h1>My Projects</h1>
       <div className="flexy">
         <div className="item">
           <a href="https://github.com/Zolo-Ryan/Zilo" aria-labelledby="project1" target="_blank" rel="noreferrer"></a>

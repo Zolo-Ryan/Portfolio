@@ -67,6 +67,20 @@
   scale: 1.2;
 }
 
+.logo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 14vh;
+  width: 100%;
+  height: 14vh;
+  opacity: 0.2;
+}
+.logo img{
+  width: 50%;
+}
+
 .arrows {
   width: 60px;
   height: 72px;
@@ -176,16 +190,20 @@
     width: 200px;
   }
   .profile-image{
-    height: 80px;
-    width: 80px;
-    top: -35px;
+    height: 120px;
+    width: 120px;
+    top: -55px;
   }
   .content{
-    margin-top: -25px;
+    margin-top: -45px;
     font-size: 1rem;
   }
   .socials a img{
     width: 35px;
+  }
+
+  .logo{
+    display: none;
   }
 }
 
@@ -202,15 +220,15 @@
   }
 
   .card-content{
-    width: 200px;
+    width: 180px;
   }
   .profile-image{
-    height: 80px;
-    width: 80px;
-    top: -35px;
+    height: 90px;
+    width: 90px;
+    top: -45px;
   }
   .content{
-    margin-top: -25px;
+    margin-top: -35px;
     font-size: 1rem;
   }
   .socials a img{
@@ -234,12 +252,12 @@
     width: 120px;
   }
   .profile-image{
-    height: 60px;
-    width: 60px;
-    top: -35px;
+    height: 80px;
+    width: 80px;
+    top: -45px;
   }
   .content{
-    margin-top: -25px;
+    margin-top: -35px;
     font-size: 0.6rem;
   }
   .socials a img{

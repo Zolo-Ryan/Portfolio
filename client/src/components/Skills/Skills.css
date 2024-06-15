@@ -1,6 +1,15 @@
-.skills {
+.skills-parent{
+  padding: 20px 0;
   position: relative;
   color: white;
+}
+.skills-parent h1{
+  font-weight: 400;
+  font-size: 3rem;
+  padding: 10px;
+}
+
+.skills {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
@@ -16,6 +25,7 @@
   border-radius: 20px;
   row-gap: 20px;
   padding: 20px;
+  border: 1px solid rgb(55, 58, 219);
 }
 .skillset:hover {
   backdrop-filter: blur(1px);
@@ -48,6 +58,9 @@
 }
 
 @media screen and (max-width: 640px) {
+  .skills-parent h1{
+    font-size: 1.7rem;
+  }
   .skills{
     gap: 12px;
   }
@@ -65,6 +78,9 @@
 }
 
 @media screen and (max-width: 500px) {
+  .projects h1{
+    font-size: 1.5rem;
+  }
   .skills{
     gap: 10px;
   }

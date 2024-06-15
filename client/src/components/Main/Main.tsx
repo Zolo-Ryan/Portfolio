@@ -5,6 +5,7 @@ import linkedIn from "../../assets/icons8-linkedin.svg";
 import github from "../../assets/icons8-github.svg";
 import twitter from "../../assets/icons8-twitterx.svg";
 import hashnode from "../../assets/icons8-hashnode.svg";
+import zolo_logo from "../../assets/ZoloRyan_logo2.png";
 
 const Main = () => {
   return (
@@ -56,12 +57,15 @@ const Main = () => {
             </div>
           </div>
         </div>
-        
+
         <svg className="arrows" id="about">
           <path className="a1" d="M0 0 L30 32 L60 0"></path>
           <path className="a2" d="M0 20 L30 52 L60 20"></path>
           <path className="a3" d="M0 40 L30 72 L60 40"></path>
         </svg>
+      </div>
+      <div className="logo">
+        <img src={zolo_logo} alt="Zolo Ryan" />
       </div>
     </main>
   );
