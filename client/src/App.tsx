@@ -1,6 +1,5 @@
 import "./App.css";
 import Navbar from "./components/Navbar/Navbar";
-import ImageGallery from "./components/ImageGallery/RevolvingImageGallery";
 import Main from "./components/Main/Main";
 import Introduction from "./components/Introduction/Introduction";
 import Footer from "./components/Footer/Footer";

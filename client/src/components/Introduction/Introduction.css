@@ -17,3 +17,27 @@
   gap: 4px;
   font-size: 1.2rem;
 }
+
+@media screen and (max-width: 640px) {
+  .intro{
+    padding: 2px;
+  }
+  .intro h2{
+    font-size: 1.2rem;
+  }
+  .intro-text{
+    font-size: 0.8rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .intro{
+    padding: 2px;
+  }
+  .intro h2{
+    font-size: 1rem;
+  }
+  .intro-text{
+    font-size: 0.6rem;
+  }
+}

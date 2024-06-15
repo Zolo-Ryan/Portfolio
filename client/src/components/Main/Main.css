@@ -75,20 +75,20 @@
   margin-left: -30px;
   bottom: 20px;
 }
-.arrows path{
+.arrows path {
   fill: transparent;
   stroke-width: 7px;
   animation: arrow 2s infinite;
   -webkit-animation: arrow 2s infinite;
 }
-.arrows path.a1{
-    stroke: #e4e9ec;
+.arrows path.a1 {
+  stroke: #e4e9ec;
 }
-.arrows path.a2{
-    stroke: #176392;
+.arrows path.a2 {
+  stroke: #176392;
 }
-.arrows path.a3{
-    stroke: #0f0320;
+.arrows path.a3 {
+  stroke: #0f0320;
 }
 @keyframes arrow {
   0% {
@@ -129,4 +129,120 @@
 .arrows path.a3 {
   animation-delay: 0s;
   -webkit-animation-delay: 0s; /* Safari 和 Chrome */
+}
+
+@media screen and (max-width: 1024px) {
+  .main{
+    margin: 10px;
+  }
+
+  .typewriter {
+    left: 7vw;
+  }
+  .typewriter p {
+    font-size: 1.5rem;
+  }
+
+  .card-content{
+    width: 350px;
+  }
+  .profile-image{
+    height: 18vh;
+    width: 18vh;
+    top: -65px;
+  }
+  .content{
+    margin-top: -40px;
+    font-size: 1.8rem;
+  }
+  .socials a img{
+    width: 45px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .main{
+    margin: 10px;
+  }
+
+  .typewriter {
+    left: 5vw;
+  }
+  .typewriter p {
+    font-size: 1.2rem;
+  }
+
+  .card-content{
+    width: 200px;
+  }
+  .profile-image{
+    height: 80px;
+    width: 80px;
+    top: -35px;
+  }
+  .content{
+    margin-top: -25px;
+    font-size: 1rem;
+  }
+  .socials a img{
+    width: 35px;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .main{
+    margin: 10px;
+  }
+
+  .typewriter {
+    left: 5vw;
+  }
+  .typewriter p {
+    font-size: 4.5vw;
+  }
+
+  .card-content{
+    width: 200px;
+  }
+  .profile-image{
+    height: 80px;
+    width: 80px;
+    top: -35px;
+  }
+  .content{
+    margin-top: -25px;
+    font-size: 1rem;
+  }
+  .socials a img{
+    width: 35px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .main{
+    margin: 10px;
+  }
+
+  .typewriter {
+    left: 0px;
+  }
+  .typewriter p {
+    font-size: 0.8rem;
+  }
+
+  .card-content{
+    width: 120px;
+  }
+  .profile-image{
+    height: 60px;
+    width: 60px;
+    top: -35px;
+  }
+  .content{
+    margin-top: -25px;
+    font-size: 0.6rem;
+  }
+  .socials a img{
+    width: 15px;
+  }
 }

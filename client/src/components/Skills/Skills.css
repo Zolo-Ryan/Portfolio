@@ -46,3 +46,37 @@
   width: 8vw;
   height: 8vw;
 }
+
+@media screen and (max-width: 640px) {
+  .skills{
+    gap: 12px;
+  }
+  .skillset{
+    row-gap: 12px;
+    padding: 12px;
+  }
+  .skills .heading{
+    column-gap: 12px;
+    font-size: 0.8rem;
+  }
+  .skills .heading .coding{
+    width: 40px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .skills{
+    gap: 10px;
+  }
+  .skillset{
+    row-gap: 10px;
+    padding: 10px;
+  }
+  .skills .heading{
+    column-gap: 10px;
+    font-size: 0.6rem;
+  }
+  .skills .heading .coding{
+    width: 25px;
+  }
+}

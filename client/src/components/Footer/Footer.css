@@ -11,3 +11,10 @@
     border-top: 1px solid rgb(55, 58, 219);
     backdrop-filter: blur(10px);
 }
+
+@media screen and (max-width: 350px){
+    .footer{
+        padding: 5px;
+        font-size: 0.7rem;
+    }
+}

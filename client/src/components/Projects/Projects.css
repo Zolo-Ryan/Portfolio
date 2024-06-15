@@ -81,3 +81,41 @@
 .item__body p {
   margin: 0;
 }
+
+@media screen and (max-width: 640px) {
+  .projects h1{
+    font-size: 1.7rem;
+  }
+  .item{
+    height: 8.5rem;
+  }
+  .item h3{
+    padding: 0.4rem;
+  }
+  .item__overlay{
+    font-size: 0.5rem;
+  }
+  .item__body{
+    font-size: 0.6rem;
+    padding: 0.2rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .projects h1{
+    font-size: 1.5rem;
+  }
+  .item{
+    height: 7rem;
+  }
+  .item h3{
+    padding: 0.5rem;
+  }
+  .item__overlay{
+    font-size: 0.4rem;
+  }
+  .item__body{
+    font-size: 0.45rem;
+    padding: 0.2rem;
+  }
+}
