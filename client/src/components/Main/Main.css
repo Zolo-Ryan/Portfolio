@@ -15,7 +15,7 @@
   width: 50%;
 }
 .typewriter p {
-  font-size: 2rem;
+  font-size: 2.3rem;
   color: white;
 }
 .special,
@@ -158,7 +158,7 @@
   }
 
   .card-content{
-    width: 350px;
+    width: 330px;
   }
   .profile-image{
     height: 18vh;
@@ -262,5 +262,35 @@
   }
   .socials a img{
     width: 15px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .main-child{
+    flex-direction: column-reverse;
+  }
+  .card-content{
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    top: -2vh;
+  }
+  .profile-image{
+    width: 35vw;
+    height: 35vw;
+  }
+  .content p{
+    font-size: 260%;
+  }
+  .content .socials a img{
+    width: 10vw;
+    height: 10vw;
+  }
+
+  .typewriter{
+    top: 50px;
+  }
+  .typewriter p{
+    font-size: 140%;
   }
 }

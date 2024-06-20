@@ -25,3 +25,4 @@ yarn-error.log*
 Starlight.jpg
 Starlight2.jpg
 *.pdf
+package-lock.json

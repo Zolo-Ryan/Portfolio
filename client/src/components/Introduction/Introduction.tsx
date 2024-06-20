@@ -9,11 +9,10 @@ const Introduction = () => {
           I am a Pre-final year at NIT Kurukshetra, pursuing B.Tech in Computer
           Engineering
         </p>
-        <p>I have an unsatiable curiosity</p>
         <p>
-          My field of interest lies in developing Web application and system
-          applications
+          My field of interest lies in developing Web application and Competitive Programming
         </p>
+        <p>Currently exploring the realms of `How core tech works`</p>
         <p>I am fluent in C, Java, Javascript and modern web frameworks</p>
         <p>
           Being an open source enthusiast I am always looking for some cool
