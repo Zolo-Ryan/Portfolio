@@ -17,7 +17,7 @@ export const projects = [
     name: "Blogify - Blogging application",
     overlay:
       "A blogging application to create, modify and update posts. There is also a login feature using jwt token for stateless authentication.",
-    link: "https://blogify-88v0.onrender.com/",
+    link: "https://blogify-zolo.vercel.app/",
     image: img2,
   },
   {
