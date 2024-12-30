@@ -6,11 +6,11 @@ const Introduction = () => {
       <h2>LET ME <span className="special">INTRODUCE</span> MYSELF</h2>
       <div className="intro-text">
         <p>
-          I am a Pre-final year at NIT Kurukshetra, pursuing B.Tech in Computer
+          I am a Pre-final year student at NIT Kurukshetra, pursuing B.Tech in Computer
           Engineering
         </p>
         <p>
-          My field of interest lies in developing Web application and Competitive Programming
+          My field of interest lies in Web development and Operating systems
         </p>
         <p>Currently exploring the realms of `How core tech works`</p>
         <p>I am fluent in C, Java, Javascript and modern web frameworks</p>

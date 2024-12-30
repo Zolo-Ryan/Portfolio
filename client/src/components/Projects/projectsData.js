@@ -3,7 +3,8 @@ import img2 from "../../assets/blog.png";
 import img3 from "../../assets/weather.png";
 import img4 from "../../assets/digitomize_svg.png";
 import img5 from "../../assets/techspardha.png";
-import img6 from "../../assets/emr_web.png"
+import img6 from "../../assets/emr_web.png";
+import img7 from "../../assets/oidc_image.png";
 
 export const projects = [
   {
@@ -14,18 +15,11 @@ export const projects = [
     image: img1,
   },
   {
-    name: "Blogify - Blogging application",
+    name: "OIDC Lite",
     overlay:
-      "A blogging application to create, modify and update posts. There is also a login feature using jwt token for stateless authentication.",
-    link: "https://blogify-zolo.vercel.app/",
-    image: img2,
-  },
-  {
-    name: "Open source contributor - Digitomize",
-    overlay: "Contributed to a well known open source project - Digitomize. Generating Svgs based on user data stored on the server and embedding it on some other website with a simple click.",
-    link: "https://github.com/digitomize/digitomize/pull/559",
-    image: img4,
-    objectPosition: "center",
+      "OIDC Lite is an OIDC compliant authentication solution designed to offer a balance of necessary features from FusionAuth while ensuring efficient resource management and keeping things light weight.",
+    link: "https://github.com/techsavvyash/oidc-lite",
+    image: img7,
   },
   {
     name: "Contributed to techspardha.in",
@@ -34,6 +28,21 @@ export const projects = [
     link: "https://github.com/technobyte-nitkkr/Spardha/pulls?q=is%3Apr+author%3AZolo-Ryan+is%3Aclosed",
     image: img5,
     objectPosition: "center",
+  },
+  {
+    name: "Open source contributor - Digitomize",
+    overlay:
+      "Contributed to a well known open source project - Digitomize. Generating Svgs based on user data stored on the server and embedding it on some other website with a simple click.",
+    link: "https://github.com/digitomize/digitomize/pull/559",
+    image: img4,
+    objectPosition: "center",
+  },
+  {
+    name: "Blogify - Blogging application",
+    overlay:
+      "A blogging application to create, modify and update posts. There is also a login feature using jwt token for stateless authentication.",
+    link: "https://blogify-zolo.vercel.app/",
+    image: img2,
   },
   {
     name: "Contributed to EMR official website",

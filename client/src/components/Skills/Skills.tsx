@@ -21,6 +21,7 @@ const Skills = () => {
                       alt="Loading"
                       key={i}
                       className={val.className}
+                      title={val.title}
                     />
                   );
                 })}

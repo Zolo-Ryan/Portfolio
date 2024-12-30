@@ -1,6 +1,6 @@
 import coding from "../../assets/coding.png";
 import internet from "../../assets/internet.png";
-import setting from "../../assets/settings.png"
+import setting from "../../assets/settings.png";
 import c_image from "../../assets/c-.png";
 import java_image from "../../assets/java.png";
 import js_image from "../../assets/java-script.png";
@@ -19,6 +19,7 @@ import make_img from "../../assets/gnu.png";
 
 interface imageData {
   image: string;
+  title: string;
   className?: string;
 }
 interface skillSetData {
@@ -28,25 +29,25 @@ interface skillSetData {
 }
 
 const programming: imageData[] = [
-  { image: c_image },
-  { image: java_image },
-  { image: js_image },
-  { image: python_image },
-  { image: bash },
+  { image: c_image, title: "C" },
+  { image: java_image, title: "Java" },
+  { image: js_image, title: "JavaScript" },
+  { image: python_image, title: "Python" },
+  { image: bash, title: "Bash" },
 ];
 const web: imageData[] = [
-  { image: react_img, className: "bg-white" },
-  { image: express_img },
-  { image: mongo_img },
-  { image: node_img },
-  { image: nest_img },
+  { image: react_img, className: "bg-white", title: "ReactJs" },
+  { image: express_img, title: "ExpressJs" },
+  { image: mongo_img, title: "MongoDB" },
+  { image: node_img, title: "NodeJs" },
+  { image: nest_img, title: "NestJs" },
 ];
 const tools: imageData[] = [
-  { image: git_img, className: "bg-white" },
-  { image: prisma_img, className: "bg-white" },
-  { image: post_img, className: "bg-white" },
-  { image: docker_img, className: "bg-white" },
-  { image: make_img, className: "bg-white" },
+  { image: git_img, className: "bg-white", title: "Git" },
+  { image: prisma_img, className: "bg-white", title: "Prisma" },
+  { image: post_img, className: "bg-white", title: "Postman" },
+  { image: docker_img, className: "bg-white", title: "Docker" },
+  { image: make_img, className: "bg-white", title: "GNU Make" },
 ];
 
 export const skillSet: skillSetData[] = [

@@ -19,8 +19,8 @@ const Navbar = () => {
                 <a href="#home"><li>Home</li></a>
                 <a href="#about"><li>About</li></a>
                 <a href="#projects"><li>Projects</li></a>
-                <a href="https://drive.google.com/file/d/1EttRlmPVNS9YuEUdeLqOdANnL6Ydf7xF/view?usp=sharing" download={"Resume_Utkarsh_Swaroop_Shrivastava_Resume"}><li>Resume</li></a>
-                <a href="#"><li>Blog</li></a>
+                <a href="https://drive.google.com/file/d/1cUq7hb_WC-2ysx2DKy9JN_uuORt2EYZG/view?usp=sharing" download={"Resume_Utkarsh_Swaroop_Shrivastava_Resume"}><li>Resume</li></a>
+                <a href="https://drive.google.com/file/d/1GmSGkfj_qe5ie2b_fh9kW-WxCq21lga-/view?usp=sharing" download={"Samagra_Letter_of_Recommendation_Utkarsh"}><li>LOR</li></a>
             </ul>
         </nav>
     );
