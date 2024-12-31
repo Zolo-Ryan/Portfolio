@@ -1,4 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,500..900;1,500..900&display=swap');
+
+:root{
+  --primary-color: #3a1078;
+  --secondary-color: #4e31aa;
+  --tertiary-color: #3795bd;
+  --font-color: #dbd3d3;
+  --border-color: rgb(55, 58, 219);
+}
 
 * {
   margin: 0;
@@ -11,7 +20,7 @@ html {
 }
 a {
   text-decoration: none;
-  color: white;
+  color: var(--font-color);
 }
 img {
   height: 100%;
@@ -19,7 +28,8 @@ img {
 }
 
 body {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 500;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }

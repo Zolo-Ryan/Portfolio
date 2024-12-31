@@ -15,18 +15,21 @@
   width: 50%;
 }
 .typewriter p {
-  font-size: 2.3rem;
-  color: white;
+  font-size: 36.8px;
+  /* color: white; */
+  color: var(--font-color);
 }
 .special,
 .typewriter p.special {
-  color: rgb(55, 55, 214);
-  text-shadow: 1px -1px 1px white;
+  /* color: rgb(55, 55, 214); */
+  color: var(--tertiary-color);
+  /* text-shadow: 1px -1px 1px #e1ffbb; */
 }
 
 .card-content {
   position: relative;
   color: white;
+  right: 10%;
   margin-top: 100px;
   width: 400px;
   border: 1px solid white;
@@ -35,31 +38,35 @@
   align-items: center;
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
-  border: 1px solid rgb(55, 58, 219);
+  border: 1px solid var(--border-color);
   border-radius: 20px;
   padding: 20px;
 }
 .profile-image {
   position: relative;
-  top: -80px;
+  top: -100px;
   border-radius: 50%;
-  height: 25vh;
-  width: 25vh;
+  height: 29vh;
+  width: 29vh;
 }
 .profile-image img {
   border-radius: 50%;
 }
 .content {
-  margin-top: -55px;
-  font-size: 2rem;
+  margin-top: -75px;
+  font-size: 64px;
   text-align: center;
+}
+.content p {
+  font-weight: 600;
+  color: var(--font-color);
 }
 .socials {
   display: flex;
   justify-content: space-between;
 }
 .socials a img {
-  width: 50px;
+  width: 65px;
   transition: ease-out 0.1s;
   filter: drop-shadow(1px 1px 1px white);
 }
@@ -67,7 +74,7 @@
   scale: 1.2;
 }
 
-.logo{
+.logo {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -77,7 +84,7 @@
   height: 14vh;
   opacity: 0.2;
 }
-.logo img{
+.logo img {
   width: 50%;
 }
 
@@ -96,13 +103,13 @@
   -webkit-animation: arrow 2s infinite;
 }
 .arrows path.a1 {
-  stroke: #e4e9ec;
+  stroke: var(--font-color);
 }
 .arrows path.a2 {
-  stroke: #176392;
+  stroke: var(--tertiary-color);
 }
 .arrows path.a3 {
-  stroke: #0f0320;
+  stroke: var(--primary-color);
 }
 @keyframes arrow {
   0% {
@@ -146,7 +153,7 @@
 }
 
 @media screen and (max-width: 1024px) {
-  .main{
+  .main {
     margin: 10px;
   }
 
@@ -154,28 +161,29 @@
     left: 7vw;
   }
   .typewriter p {
-    font-size: 1.5rem;
+    font-size: 24px;
   }
 
-  .card-content{
+  .card-content {
     width: 330px;
+    right: auto;
   }
-  .profile-image{
+  .profile-image {
     height: 18vh;
     width: 18vh;
     top: -65px;
   }
-  .content{
+  .content {
     margin-top: -40px;
-    font-size: 1.8rem;
+    font-size: 28.8px;
   }
-  .socials a img{
+  .socials a img {
     width: 45px;
   }
 }
 
 @media screen and (max-width: 640px) {
-  .main{
+  .main {
     margin: 10px;
   }
 
@@ -183,114 +191,124 @@
     left: 5vw;
   }
   .typewriter p {
-    font-size: 1.2rem;
+    font-size: 19.2;
   }
 
-  .card-content{
+  .card-content {
     width: 200px;
+    right: auto;
   }
-  .profile-image{
+  .profile-image {
     height: 120px;
     width: 120px;
     top: -55px;
   }
-  .content{
+  .content {
     margin-top: -45px;
-    font-size: 1rem;
+    font-size: 19px;
   }
-  .socials a img{
+  .socials a img {
     width: 35px;
   }
 
-  .logo{
+  .logo {
     display: none;
   }
 }
 
 @media screen and (max-width: 540px) {
-  .main{
-    margin: 10px;
+  .main {
+    margin: 0px;
   }
 
   .typewriter {
     left: 5vw;
-  }
-  .typewriter p {
-    font-size: 4.5vw;
+    width: 100%;
+    font-size: 19px;
   }
 
-  .card-content{
+  .card-content {
     width: 180px;
+    right: auto;
   }
-  .profile-image{
+  .profile-image {
     height: 90px;
     width: 90px;
     top: -45px;
   }
-  .content{
+  .content {
     margin-top: -35px;
-    font-size: 1rem;
+    font-size: 19px;
   }
-  .socials a img{
+  .socials a img {
     width: 35px;
   }
 }
 
 @media screen and (max-width: 400px) {
-  .main{
-    margin: 10px;
+  .main {
+    margin: 0px;
+  }
+
+  .arrows {
+    width: 60px;
+    height: 72px;
+  }
+  .arrows path {
+    stroke-width: 3px;
   }
 
   .typewriter {
     left: 0px;
-  }
-  .typewriter p {
-    font-size: 0.8rem;
+    font-size: 16px;
+    width: 100%;
   }
 
-  .card-content{
+  .card-content {
     width: 120px;
+    right: auto;
   }
-  .profile-image{
-    height: 80px;
-    width: 80px;
+  .profile-image {
+    height: 85px;
+    width: 85px;
     top: -45px;
   }
-  .content{
+  .content {
     margin-top: -35px;
-    font-size: 0.6rem;
+    font-size: 12.2px;
   }
-  .socials a img{
-    width: 15px;
+  .socials a img {
+    width: 17px;
   }
 }
 
 @media screen and (max-width: 640px) {
-  .main-child{
+  .main-child {
     flex-direction: column-reverse;
   }
-  .card-content{
+  .card-content {
     width: 80%;
     margin-right: auto;
     margin-left: auto;
     top: -2vh;
+    right: auto;
   }
-  .profile-image{
+  .profile-image {
     width: 35vw;
     height: 35vw;
   }
-  .content p{
+  .content p {
     font-size: 260%;
   }
-  .content .socials a img{
+  .content .socials a img {
     width: 10vw;
     height: 10vw;
   }
 
-  .typewriter{
+  .typewriter {
     top: 50px;
   }
-  .typewriter p{
+  .typewriter p {
     font-size: 140%;
   }
 }

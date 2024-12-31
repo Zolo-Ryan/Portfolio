@@ -7,7 +7,7 @@
 }
 .intro h2 {
   text-align: center;
-  font-size: 2rem;
+  font-size:32px;
 }
 .intro-text {
   color: white;
@@ -15,29 +15,31 @@
   display: flex;
   flex-direction: column;
   gap: 4px;
-  font-size: 1.4rem;
+  font-size: 22.4px;
 }
 
 @media screen and (max-width: 640px) {
   .intro{
-    padding: 2px;
+    padding: 2px 0;
+    margin-top: -10px;
   }
   .intro h2{
-    font-size: 1.2rem;
+    font-size: 19.2px;
   }
   .intro-text{
-    font-size: 0.8rem;
+    font-size: 15.8px;
   }
 }
 
 @media screen and (max-width: 500px) {
   .intro{
-    padding: 2px;
+    padding: 2px 0;
+    margin-top: -40px;
   }
   .intro h2{
-    font-size: 1rem;
+    font-size: 16px;
   }
   .intro-text{
-    font-size: 0.6rem;
+    font-size: 10px;
   }
 }

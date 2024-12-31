@@ -5,31 +5,31 @@
 
 .projects h1{
     padding: 10px;
-    font-size: 3rem;
+    font-size: 48px;
     font-weight: 400;
 }
 
 .flexy {
   display: flex;
   justify-content: space-evenly;
-  row-gap: 1.2rem;
+  row-gap: 19.2px;
   flex-wrap: wrap;
 }
 .item {
   position: relative;
   width: 40%;
-  height: 19rem;
+  height: 304px;
   background-color: lightGrey;
   overflow-y: hidden;
-  border: 1px solid rgb(55, 58, 219);
-  box-shadow: 0.1rem 0.1rem 1rem rgba(0, 0, 0,0.7);
+  border: 1px solid var(--border-color);
+  box-shadow: 1.6px 1.6px 16px rgba(0, 0, 0,0.7);
   border-radius: 10px;
 }
 .item h3 {
   margin: 0;
   display: block;
   background-color: rgba(25, 37, 119, 0.9);
-  padding: 1rem;
+  padding: 16px;
   transform: translate3d(0, -100%, 0);
   transition: transform 300ms;
 }
@@ -74,7 +74,7 @@
 }
 .item__body {
   flex-grow: 1;
-  padding: 1rem;
+  padding: 16px;
   opacity: 0;
   transition: opacity 500ms 100ms;
 }
@@ -84,38 +84,38 @@
 
 @media screen and (max-width: 640px) {
   .projects h1{
-    font-size: 1.7rem;
+    font-size: 27.2px;
   }
   .item{
-    height: 8.5rem;
+    height: 136px;
   }
   .item h3{
-    padding: 0.4rem;
+    padding: 102.4px;
   }
   .item__overlay{
-    font-size: 0.5rem;
+    font-size: 8px;
   }
   .item__body{
-    font-size: 0.6rem;
-    padding: 0.2rem;
+    font-size: 9.6px;
+    padding: 3.2px;
   }
 }
 
 @media screen and (max-width: 500px) {
   .projects h1{
-    font-size: 1.5rem;
+    font-size: 24px;
   }
   .item{
-    height: 7rem;
+    height: 112px;
   }
   .item h3{
-    padding: 0.5rem;
+    padding: 8px;
   }
   .item__overlay{
-    font-size: 0.4rem;
+    font-size: 6.4px;
   }
   .item__body{
-    font-size: 0.45rem;
-    padding: 0.2rem;
+    font-size: 7.2px;
+    padding: 3.2px;
   }
 }
